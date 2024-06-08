@@ -184,7 +184,7 @@ html {
     width: 400px;
     height: 500px;
     margin-top: 50px;
-    margin-left: 360px;
+    margin-left: 350px;
     z-index: 3;
 }
 
@@ -415,7 +415,7 @@ html {
     width: 100%;
     height: 500px;
     background-color: #000;
-    bottom: -3580px;
+    bottom: -3500px;
 }
 
 .skills-container {
