@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="finals.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Creative Universe</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <ul id="nav-items">
+            <p>Seandugo.</p>
+            <a href="#contact-me">Contact Me</a>
+            <a href="#myJourney">My Journey</a>
+            <a href="#skills">Skills</a>
+            <a href="#aboutMe">About Me</a>
+            <a href="#home">Home</a>
+        </ul>
+    </div>
+
+    <video autoplay muted loop id="myVideo">
+        <source src="bg.mp4" type="video/mp4">
+    </video>
+
+    <div class="nav-button">
+        <button onclick="location.href='#home'"></button>
+        <button onclick="location.href='#aboutMe'"></button>
+        <button onclick="location.href='#skills'"></button>
+        <button onclick="location.href='#myJourney'"></button>
+        <button onclick="location.href='#contact-me'"></button>
+    </div>
+
+    <section class="header-container" id="home">
+        <div class="header" id="text">
+            <img src="sean.jpg" alt="seandugo">
+            <h1>Creative Universe</h1>
+            <p>Exploring the Life of a Creative Universe: Seandugo's Portfolio</p>
+        </div>
+    </section>
+
+    <section class="about-me-container" id="aboutMe">
+        <div class="about-me" id="aboutme">
+            <div class="about-me-img">
+                <img src="my-image.jpg" alt="me">
+            </div>
+            <div class="description">
+                <h1>About Me</h1>
+                <p>I am Sean Paul Dumaop aka "Seandugo". An aspiring web developer.
+                    I am a second year college student in Technological University of
+                    the Philippines with the course of Bachelor of Technological Vocational
+                    Teacher Education Major in Computer Programming.</p>
+            </div>
+        </div>
+        <div class="skills-container" id="skills">
+            <h1>Skills</h1>
+            <div class="skills">
+                <div class="python">
+                    <h2>PYTHON</h2>
+                    <p>have knowledge and skills in programming python language such as PyQt5, Selenium, Django</p>
+                </div>
+                <div class="webdev">
+                    <h2>WEB DEVELOPMENT</h2>
+                    <p>have knowledge and skills in both front end and back end web developing</p>
+                </div>
+                <div class="pyqt">
+                    <h2>APPLICATION CREATION</h2>
+                    <p>have knowledge and skills in creating software application utilizing PyQt5 and SQLite</p>
+                </div>
+            </div> 
+        </div>
+    </section>
+
+    <section class="my-journey-container">
+        <div class="my-journey">
+            <h1 id="myJourney">Mi Gallery</h1>
+            <p> Explore my journey towards the exciting world of web developer.</p>
+            <div class="portfolio-container">
+                <div class="my-journey-img">
+                    <input type="radio" name="slide" id="one">
+                    <input type="radio" name="slide" id="two">
+                    <input type="radio" name="slide" id="three">
+                    <input type="radio" name="slide" id="four">
+                    <input type="radio" name="slide" id="five">
+                    <input type="radio" name="slide" id="six">
+                    <input type="radio" name="slide" id="seven">
+                    <input type="radio" name="slide" id="eight" checked>
+                    <div class="img img-1">
+                        <img src="1.jpg" alt="journey">
+                    </div>
+                    <div class="img img-2">
+                        <img src="2.jpg" alt="journey">
+                    </div>
+                    <div class="img img-3">
+                        <img src="3.jpg" alt="journey">
+                    </div>
+                    <div class="img img-4">
+                        <img src="4.png" alt="journey">
+                    </div>
+                    <div class="img img-5">
+                        <img src="5.png" alt="journey">
+                    </div>
+                    <div class="img img-6">
+                        <img src="6.png" alt="journey">
+                    </div>
+                    <div class="img img-7">
+                        <img src="7.jpg" alt="">
+                    </div>
+                    <div class="img img-8">
+                        <img src="8.png" alt="">
+                    </div>
+                    <div class="sliders">
+                        <label for="one" class="one"></label>
+                        <label for="two" class="two"></label>
+                        <label for="three" class="three"></label>
+                        <label for="four" class="four"></label>
+                        <label for="five" class="five"></label>
+                        <label for="six" class="six"></label>
+                        <label for="seven" class="seven"></label>
+                        <label for="eight" class="eight"></label>
+                    </div>
+                </div>
+                <div class="video-container">
+                    <video controls>
+                        <source src="4.mp4" type="video/mp4">
+                    </video>
+                    <div class="text-container">
+                        <h1>"CYBER LITERASIYA"</h1>
+                        <p>Let us delve the world of digital.</p>
+                        <p>A project created to define Cyber Literacy.</p>
+                    </div>
+                </div>
+                <div class="art-container">
+                    <div class="text-container1">
+                        <h1>"EYES OF JUDGEMENT"</h1>
+                        <p>This artwork emphasizes how intimidating the eyes are. This poster 
+                            is inspired by a feeling that cannot be explained and a feeling of having the unknown fears.
+                        </p>
+                    </div>
+                    <img src="7.jpg" alt="artwork">
+                </div>
+                <div class="portfolio">
+                    <div class="text">
+                        <h1>Other Works</h1>
+                    </div>
+                    <div class="grid-container">
+                        <img src="1.jpg" alt="">
+                        <img src="2.jpg" alt="">
+                        <img src="3.jpg" alt="">
+                        <img src="4.png" alt="">
+                        <img src="5.png" alt="">
+                        <img src="6.png" alt="">
+                        <img src="8.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="profile-container">
+            <h1 id="contact-me">Contact Me</h1>
+            <div class="socials">
+                <a href="https://www.facebook.com/seanpoooo"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.instagram.com/seandugo"><i class='bx bxl-instagram'></i></a>
+                <a href="https://twitter.com/seanpooooo"><i class='bx bxl-twitter'></i></a>
+            </div>
+            <p>&copy;2024  Sean Paul Dumaop | All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="finals1.js"></script>
+</body>
+
+</html>
