@@ -315,7 +315,7 @@ html {
 .video-container {
     position: relative;
     background-color: #343a8f;
-    width: 100%;
+    width: 120%;
     height: 500px;
     display: flex;
     z-index: -3;
